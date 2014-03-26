@@ -1,0 +1,57 @@
+---
+title: 'ZOMG I forgot my CSS!'
+name: 'nebcc bootstrap'
+linkTitle: 'nebcc bootstrap'
+pageOrder: 3
+layout: 'deck'
+tags: ['navmenu']
+---
+
+<div class="deck-container">
+  <section class="slide">
+    <h1>My Presentation</h1>
+  </section>
+
+    <section class="slide">
+    <h2>Slide Header</h2>
+    <p>Here is a list of points:</p>
+    <ul>
+      <li>Point 1</li>
+      <li>Point 2</li>
+      <li>Point 3</li>
+    </ul>
+  </section>
+
+  <section class="slide">
+    <h2>Another Slide</h2>
+    <blockquote cite="http://example.com">
+      <p>Lorem ipsum dolor sit amet.</p>
+      <p><cite>Cicero</cite></p>
+    </blockquote>
+  </section>
+
+  <section class="slide">
+  <h2>Extensions</h2>
+  <p>Core gives you basic slide functionality...</p>
+  <ul>
+    <li class="slide">
+      <h3>deck.goto</h3>
+      <p>Adds a shortcut key to jump to any slide number...</p>
+    </li>
+    <li class="slide">...</li>
+    <li class="slide">...</li>
+    <li class="slide">...</li>
+  </ul>
+</section>
+</div>
+<a class="deck-prev-link" href="#" title="Previous">&#8594</a>
+<a class="deck-next-link" href="#" title="Next">&#8594</a>
+
+<p class="deck-status">
+  <span class="deck-status-current">/</span>
+  <span class="deck-status-total"> </span>
+</p>
+
+<button value="toggle-goto" name="toggle-goto" onclick="$.deck('toggleGoTo')"/>
+<button value="toggle-menu" name="toggle-menu" onclick="$.deck('toggleMenu')" />
+<button value="toggle-scale" name="toggle-scale" onclick="$.deck('toggleScale')" />

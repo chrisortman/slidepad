@@ -93,6 +93,10 @@ docpadConfig = {
 		impress: (database) ->
 			database.findAllLive({tags: {$has: 'impress'} ,pageOrder: {$exists: true}},{pageOrder:1})
 
+  watchOptions: preferredMethods: ['watchFile','watch']
+  regenerateDelay: 0
+  watchOptions: catchupDelay: 0
+
 	# =================================
 	# DocPad Events
 
